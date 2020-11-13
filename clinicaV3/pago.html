@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="header.js"></script>
+</head>
+
+
+<body style="background:#75a6e1;">
+
+    <header class="">
+
+        <div class="wrapper">
+
+            <div class="logo">
+                Consultorio Paracetamol
+
+            </div>
+            <nav>
+                <a href="cosulta.html">Pacientes</a>
+                <a href="ConsultaMed.html">Consultas</a>
+                <a href="#">Servicios</a>
+                <a href="#">Medicamentos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div style="width:40px;border:10px solid #75a6e1; ">
+
+    </div>
+
+    <form id="consul" class="contenido">
+        <center>
+
+            <div id="dat-med" class="borde-redondeado">
+
+                <h4 class="let">Forma de Pago</h4>
+
+                <section class="personal">
+                    <div class="col1">
+                        <label class="let2">Tarjeta:</label>
+                       <select name="tarjeta" class="caja">
+                        <option value="BBVA">BBVA</option>
+                        <option value="Banamex">Banamex</option>
+                        <option value="Santander">Santander</option>
+                        <option value="Banorte">Banorte</option>
+                        <option value="BanCoopel">BanCoopel</option>
+                        <option value="Bancoaz">Banco azteca</option>
+                        <option value="otra">Otra</option>
+                    </select>
+                 <label class="let2">Vencimiento:</label>
+                        <input class="txt" type="number" name="vencimiento" placeholder="MM/YY" required />
+
+                    </div>
+                    <div class="col2">
+
+                       <label class="let2">Número de Tarjeta:</label>
+                        <input class=" txt" type="number" name="numtar" placeholder="XXXX-XXXX-XXXX-XXXX" required />
+                        <label class="let2">Total consulta</label>
+                        <input class=" txt" type="number" name="totcon" placeholder="$" />
+
+                    </div>
+                    <div class="col3">
+                        <label class="let2">Titular de la tarjeta:</label>
+                        <input class="txt" type="text" name="titular" placeholder="Nombre completo" required />
+                        <label class="let2">Pago por noche</label>
+                        <input class=" txt" type="number" name="peso" placeholder="Peso" />
+
+                    </div>
+                </section>
+                <div>
+                    <center class="colcenter">
+                        <label class="let2">Medicamentos</label>
+                        <textarea class="boxtxt2" name="med" rows="10" cols="40" placeholder="Medicamentos"></textarea>
+                        <label class="let2">Servicios adicionales</label>
+                        <textarea class="boxtxt2" name="servad" rows="10" cols="40" placeholder="Servicios"></textarea><br />
+                        <label class="let2">Total gastos</label>
+                        <textarea class="boxtxt2" name="enfermedades" rows="10" cols="40" placeholder="Total"></textarea>
+                    </center>
+                </div>
+                <div class="btns">
+                    <a href="" class="btn" type="submit">Guardar</a>
+                    <a href="" class="btn" type="reset">Nuevo</a>
+                    <a href="" class="btn">Cancelar</a>
+
+                </div>
+
+            </div>
+        </center>
+    </form>
+    <div style="width:40px;border:10px solid #75a6e1; ">
+
+    </div>
+    <footer>
+        <div class="C-footer">
+            <!---Columna 1--->
+            <div class="col1">
+                <h1>Más informacion.</h1>
+                <p>
+                    Consultorio Paracetamol es un consultorio medico
+                    .............
+                </p>
+            </div>
+            <!---Columna 2--->
+            <div class="col2">
+                <h1>Redes Sociales</h1>
+                <div class="row">
+                    <img src="img/facebook.png" />
+                    <label>Siguenos en Facebook</label>
+                </div>
+                <div class="row">
+                    <img src="img/instagram.png" />
+                    <label>Siguenos en Instagram</label>
+                </div>
+                <div class="row">
+                    <img src="img/twitter.png" />
+                    <label>Siguenos en Twitter</label>
+                </div>
+            </div>
+            <!---Columna 3--->
+            <div class="col3">
+                <h1>Informacion Contactos</h1>
+                <div class="row2">
+                    <img src="img/house.png" />
+                    <label>
+                        Domicilio
+                        Colonia
+                        Ciudad
+                    </label>
+                </div>
+                <div class="row2">
+                    <img src="img/tel.png" />
+                    <label>3414302213</label>
+                </div>
+                <div class="row2">
+                    <img src="img/contact.png" />
+                    <label>dannytapia77@gmail.com</label>
+                </div>
+            </div>
+        </div>
+        <!--derechos-->
+        <div class="final">
+            <div class="derechos">
+                @2020 Todos los Derechos Reservados
+            </div>
+            <div class="informacion">
+                Informacion Compañia | Politica y Privacidad | Terminos y Condiciones
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

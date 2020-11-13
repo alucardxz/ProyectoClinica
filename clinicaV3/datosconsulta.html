@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="header.js"></script>
+    <script src="validacion.js"></script>
+</head>
+
+
+<body style="background:#75a6e1;">
+
+    <header class="">
+
+        <div class="wrapper">
+
+            <div class="logo">
+                Consultorio Paracetamol
+
+            </div>
+            <nav>
+                <a href="cosulta.html">Pacientes</a>
+                <a href="ConsultaMed.html">Consultas</a>
+                <a href="#">Servicios</a>
+                <a href="#">Medicamentos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div style="width:40px;border:10px solid #75a6e1; ">
+
+    </div>
+
+    <form id="consul" class="contenido">
+        <center>
+
+            <div id="dat-med" class="borde-redondeado">
+                <!--Datos Medicos-->
+                <h4 class="let">Datos Medicos</h4>
+                <section class="personal">
+                  <table class="tab-datos">
+                      <tr>
+                          <td><label class="let2">Enfermedades cronicas</label></td>
+                          <td><label class="let2">Grupo Sanguineo</label></td>
+                          <td><label class="let2">Alergia a Medicamentos</label></td>
+                      </tr>
+                      <tr>
+                          <td><textarea class="boxtxt" name="enfermedades" rows="10" cols="40" placeholder="Enfermedades"></textarea></td>
+                          <td><input class=" txt" type="text" name="Edad" placeholder="Sangre" required/></td>
+                          <td><textarea class="boxtxt" name="alergia" rows="10" cols="40" placeholder="Alergia Medicamentos"></textarea></td>
+                      </tr>
+                      <tr>
+                          <td><label margim-botom="5px" class="let2">Estatura</label></td>
+                          <td><label  class="let2">Operaciones</label></td>
+                          <td><label  class="let2">Peso</label></td>
+                      </tr>
+                      <tr>
+                          <td><input class=" txt" type="number" name="estatura" placeholder="Estatura" /></td>
+                          <td><textarea  class="boxtxt" name="operaciones" rows="10" cols="40" placeholder="Operaciones"></textarea></td>
+                          <td>  <input class=" txt" type="number" name="peso" placeholder="Peso" /></td>
+                      </tr>
+                  </table>
+                </section>
+                <div class="btns">
+                    <a href="ConsultaMed.html" class="btn" type="submit">Guardar</a>
+                    <a href="" class="btn" type="reset">Nuevo</a>
+                    <a href="" class="btn">Cancelar</a>
+
+                </div>
+
+            </div>
+        </center>
+    </form>
+    <div style="width:40px;border:10px solid #75a6e1; ">
+
+    </div>
+    <footer>
+        <div class="C-footer">
+            <!---Columna 1--->
+            <div class="col1">
+                <h1>Más informacion.</h1>
+                <p>
+                    Consultorio Paracetamol es un consultorio medico
+                    .............
+                </p>
+            </div>
+            <!---Columna 2--->
+            <div class="col2">
+                <h1>Redes Sociales</h1>
+                <div class="row">
+                    <img src="img/facebook.png" />
+                    <label>Siguenos en Facebook</label>
+                </div>
+                <div class="row">
+                    <img src="img/instagram.png" />
+                    <label>Siguenos en Instagram</label>
+                </div>
+                <div class="row">
+                    <img src="img/twitter.png" />
+                    <label>Siguenos en Twitter</label>
+                </div>
+            </div>
+            <!---Columna 3--->
+            <div class="col3">
+                <h1>Informacion Contactos</h1>
+                <div class="row2">
+                    <img src="img/house.png" />
+                    <label>
+                        Domicilio
+                        Colonia
+                        Ciudad
+                    </label>
+                </div>
+                <div class="row2">
+                    <img src="img/tel.png" />
+                    <label>3414302213</label>
+                </div>
+                <div class="row2">
+                    <img src="img/contact.png" />
+                    <label>dannytapia77@gmail.com</label>
+                </div>
+            </div>
+        </div>
+        <!--derechos-->
+        <div class="final">
+            <div class="derechos">
+                @2020 Todos los Derechos Reservados
+            </div>
+            <div class="informacion">
+                Informacion Compañia | Politica y Privacidad | Terminos y Condiciones
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
