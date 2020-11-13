@@ -1,0 +1,145 @@
+﻿  <!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="header.js"></script>
+    <script src="validacion.js"></script>
+</head>
+
+
+<body style="background:#75a6e1;">
+
+    <header class="">
+
+        <div class="wrapper">
+
+            <div class="logo">
+                Clinica de nutricion Yin-Yao
+
+            </div>
+            <nav>
+                <a href="cosulta.html">Pacientes</a>
+                <a href="ConsultaMed.html">Consultas</a>
+                <a href="#">Servicios</a>
+                <a href="#">Medicamentos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div style="width:40px;border:10px solid #75a6e1; ">
+
+    </div>
+    <center>
+        <form id="consul" class="contenido" method="post" action="receta.php">
+
+            <div id="paciente" class="borde-redondeado">
+                <!--Datos personales-->
+                <h4 class="let">Datos Personales</h4>
+                <section class="personal">
+                    <div class="col1">
+                        <input class=" txt" type="text" name="Paciente" placeholder="Nombre" required />
+                        <input class=" txt" type="text" name="Edad" placeholder="Edad" required />
+                        <input class="txt" type="text" name="sexo" placeholder="Sexo" required />
+                        <input class="txt" type="text" name="Domicilio" placeholder="Domicilio" required />
+                        <input class="txt" type="text" name="edocivil" placeholder="Estado civil" required />
+
+                    </div>
+                    <div class="col2">
+                        <input class="txt" type="text" name="apeidopa" placeholder="Apeido Paterno" required />
+                        <input class="txt" type="date" name="FechaNac" placeholder="Fecha Nacimiento" required />
+                        <input class="txt" type="text" name="Estado" placeholder="Estado" required />
+                        <input class="txt" type="tel" name="telefono" placeholder="Telefono" required />
+                        <input class="txt" type="text" name="ocupacion" placeholder="Ocupacion" required />
+                    </div>
+                    <div class="col3">
+                        <input class="txt" type="text" name="apeidoma" placeholder="Apeido Materno" required />
+                        <input class="txt" type="text" name="lugarnac" placeholder="Lugar Nacimiento" required />
+                        <input class="txt" type="text" name="Ciudad" placeholder="Ciudad" required />
+                        <input class="txt" type="email" name="email" placeholder="e-mail" required />
+               
+                    </div>
+            
+                </section>
+
+
+ 
+
+                <div class="btns">
+                    <input class="btn" type="submit" value="Siguiente">
+                    <a href="" class="btn" type="reset">Nuevo</a>
+                    <a href="" class="btn">Cancelar</a>
+                </div>
+            </div>
+
+
+
+        </form>
+    </center>
+
+    <div style="width:40px;border:10px solid #75a6e1; ">
+
+    </div>
+    <footer>
+        <div class="C-footer">
+            <!---Columna 1--->
+            <div class="col1">
+                <h1>Más informacion.</h1>
+                <p>
+                    Consultorio Paracetamol es un consultorio medico
+                    .............
+                </p>
+            </div>
+            <!---Columna 2--->
+            <div class="col2">
+                <h1>Redes Sociales</h1>
+                <div class="row">
+                    <img src="facebook.png" />
+                    <label>Siguenos en Facebook</label>
+                </div>
+                <div class="row">
+                    <img src="instagram.png" />
+                    <label>Siguenos en Instagram</label>
+                </div>
+                <div class="row">
+                    <img src="twitter.png" />
+                    <label>Siguenos en Twitter</label>
+                </div>
+            </div>
+            <!---Columna 3--->
+            <div class="col3">
+                <h1>Informacion Contactos</h1>
+                <div class="row2">
+                    <img src="house.png" />
+                    <label>
+                        Domicilio
+                        Colonia
+                        Ciudad
+                    </label>
+                </div>
+                <div class="row2">
+                    <img src="tel.png" />
+                    <label>3414302213</label>
+                </div>
+                <div class="row2">
+                    <img src="contact.png" />
+                    <label>dannytapia77@gmail.com</label>
+                </div>
+            </div>
+        </div>
+        <!--derechos-->
+        <div class="final">
+            <div class="derechos">
+                @2020 Todos los Derechos Reservados
+            </div>
+            <div class="informacion">
+                Informacion Compañia | Politica y Privacidad | Terminos y Condiciones
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
