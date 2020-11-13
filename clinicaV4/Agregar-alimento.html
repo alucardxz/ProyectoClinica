@@ -1,0 +1,165 @@
+  <!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/header.js"></script>
+</head>
+
+
+<body>
+    
+    <header class="">
+  
+        <div class="wrapper">
+
+            <div class="logo">
+                <h3>Clínica de Nutrición Yin-Yiao</h3>
+            </div>
+            <nav>
+                     <a href="inicio.html">Inicio</a>
+                <a href="#">Regístrate</a>
+            </nav>
+        </div>
+    </header>
+<center>
+        <form name="alimentos" method="post" class="contenido" action="alimentos.php">
+                <div class="borde-redondeado">
+                    <h2 class="let" style="margin: 20px;">Agregar Alimento</h2>
+                    <div class="linea"></div>
+                <section class="personal">
+                     <div class="col1">
+                        <label>Alimento</label>
+                        <input class=" txt" type="text" name="alimento" placeholder="Alimento" required />
+                        <label>Unidad</label>
+                        <input class=" txt" type="text" name="unidad" placeholder="Unidad" required />
+                        <label>Energía</label>
+                        <input class=" txt" type="number" step="any" name="energia" placeholder="Kcal" required />
+                        <label>Hidratos de carbono</label>
+                        <input class=" txt" type="number" step="any" name="hidratos" placeholder="Gms" required />
+                        <label>Acido Ascórbico</label>
+                        <input class=" txt" type="text" name="acido-as" placeholder="Mg" required />
+                        <label>Potasio</label>
+                        <input class=" txt" type="number" step="any" name="potasio" placeholder="Mg" required />
+                        <label>Carga Glucémico</label>
+                         <input class=" txt" type="text" name="carga" placeholder="carga" required />
+                    </div>
+                    <div class="col2">
+                        <label>Categoria</label>
+                       <select name="categoria" class="txt" style="color: black">
+                            <option style="color: black">Verduras</option>
+                            <option style="color: black">Frutas</option>
+                            <option style="color: black">Leguminosas</option>
+                            <option style="color: black">Cereales y Tubérculos</option>
+                            <option style="color: black">Alimentos Orígen animal</option>
+                            <option style="color: black">Leche</option>
+                            <option style="color: black">Aceite y grasa</option>
+                            <option style="color: black">Azúcar</option>
+                            <option style="color: black">Etanol</option>
+                            <option style="color: black">Condimentos</option>
+                            <option style="color: black">Líquidos</option>
+                        </select>
+                        <label>Peso bruto redondeado</label>
+                        <input class="txt" type="number" step="any" name="p-bruto" placeholder="Gms" required />
+                        <label>Proteína</label>
+                        <input class=" txt" type="number" step="any" name="proteina" placeholder="Gms" required />
+                        <label>Fibra</label>
+                        <input class=" txt" type="number" step="any" name="fibra" placeholder="Gms" required />
+                        <label>Acido Fólico</label>
+                        <input class=" txt" type="number" step="any" name="acido-fo" placeholder="Mg" required />
+                        <label>Agua</label>
+                        <input class=" txt" type="number" step="any" name="agua" placeholder="Ml" required />
+                    </div>
+                    <div class="col3">
+                        
+                        <label>Cantidad Sugerida</label>
+                        <input class="txt" type="text" name="cantidad" placeholder="Cantidad" required />
+                        <label>Peso neto</label>
+                        <input class=" txt" type="number" step="any" name="p-neto" placeholder="Gms" required />
+                        <label>Lípidos</label>
+                        <input class=" txt" type="number" step="any" name="lipidos" placeholder="Gms" required />
+                        <label>Vitamina A</label>
+                        <input class=" txt" type="number" step="any" name="vitamina" placeholder="Gms RE" required />
+                        <label>Hierro</label>
+                        <input class=" txt" type="number" step="any" name="hierro" placeholder="Mg" required />
+                        <label>Índice Glucémico</label>
+                         <input class=" txt" type="text" name="indice" placeholder="indice" required />
+                    </div>
+                </section>
+
+                 <div class="btns">
+                        <input class="btn" type="submit" name="" value="Guardar">
+                        <input class="btn" type="reset" name="" value="Nuevo">
+                        <input class="btn" type="submit" name="" value="Cancelar">
+                    </div>
+                </div>
+        
+        </form>
+  </center>
+
+
+    <footer>
+        <div class="C-footer">
+            <!---Columna 1--->
+            <div class="col1">
+                <h1>Más información.</h1>
+                <p>
+                    La Clínica de Nutrición Yin-Yiao se ubica en Colima México, es atendida por la licenciada en Nutrición Erica Liliana Valencia Ramírez. Además de ofrecer citas para control de peso y enfermedades se prestan los servicios de Maderoterapía y acupuntura 
+                </p>
+            </div>
+            <!---Columna 2--->
+            <div class="col2">
+                <h1>Redes Sociales</h1>
+                <div class="row">
+                    <img src="img/facebook.png" />
+                    <label>Siguenos en Facebook</label>
+                </div>
+                <div class="row">
+                    <img src="img/instagram.png" />
+                    <label>Siguenos en Instagram</label>
+                </div>
+                <div class="row">
+                    <img src="img/twitter.png" />
+                    <label>Siguenos en Twitter</label>
+                </div>
+            </div>
+            <!---Columna 3--->
+            <div class="col3">
+                <h1>Información Contactos</h1>
+                <div class="row2">
+                    <br><br>
+                    <img src="img/house.png" />
+                    <label>
+                        Maclovio Herrera #188B
+   <br>
+                        Jardines de la corregidora 
+                        Colima, Colima.
+                    </label>
+                </div>
+                <div class="row2">
+                    <img src="img/tel.png" />
+                    <label>312 330 9587</label>
+                </div>
+                <div class="row2">
+                    <img src="img/contact.png" />
+                    <label>erica_conc@hotmail.com</label>
+                </div>
+            </div>
+        </div>
+        <!--derechos-->
+        <div class="final">
+            <div class="derechos">
+                @2020 Todos los Derechos Reservados
+            </div>
+            <div class="informacion">
+                Información Compañia | Política y Privacidad | Términos y Condiciones
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
