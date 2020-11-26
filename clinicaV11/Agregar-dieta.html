@@ -1,0 +1,142 @@
+  <!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/header.js"></script>
+</head>
+
+
+<body>
+    
+    <header class="">
+  
+        <div class="wrapper">
+
+            <div class="logo">
+                <h3>Clínica de Nutrición Yin-Yiao</h3>
+            </div>
+            <nav>
+                     <a href="inicio.html">Inicio</a>
+                <a href="#">Regístrate</a>
+            </nav>
+        </div>
+    </header>
+<center>
+        <form name="alimentos" method="post" class="contenido" action="alimentos.php">
+                <div class="borde-redondeado">
+                    <h2 class="let" style="margin: 20px;">Agregar Alimento</h2>
+                    <div class="linea"></div>
+                <section class="personal">
+                    <table class="tab-datos">
+                        <tr>
+                            <td><label>Alimento</label></td>
+                            <td><label>Categoria</label></td>
+                            <td><label>Cantidad Sugerida</label></td>
+                        </tr>
+                              <tr>
+                            <td><input class=" txt" type="text" name="alimento" placeholder="Alimento" required /></td>
+                            <td><select name="categoria" class="txt" style="color: black">
+                            <option style="color: black">Verduras</option>
+                            <option style="color: black">Frutas</option>
+                            <option style="color: black">Leguminosas</option>
+                            <option style="color: black">Cereales y Tubérculos</option>
+                            <option style="color: black">Alimentos Orígen animal</option>
+                            <option style="color: black">Leche</option>
+                            <option style="color: black">Aceite y grasa</option>
+                            <option style="color: black">Azúcar</option>
+                            <option style="color: black">Etanol</option>
+                            <option style="color: black">Condimentos</option>
+                            <option style="color: black">Líquidos</option>
+                        </select></td>
+                            <td><input class="txt" type="text" name="cantidad" placeholder="Cantidad" required /></td>
+                        </tr>
+                              <tr>
+                            <td><label>Unidad</label></td>
+                            <td><label>Peso bruto redondeado</label></td>
+                            <td><label>Peso neto</label></td>
+                        </tr>
+                              <tr>
+                            <td><input class=" txt" type="text" name="unidad" placeholder="Unidad" required /></td>
+                            <td><input class="txt" type="number" step="any" name="p-bruto" placeholder="Gms" required /></td>
+                            <td> <input class=" txt" type="number" step="any" name="p-neto" placeholder="Gms" required /></td>
+                        </tr>
+                              <tr>
+                            <td><label>Energía</label></td>
+                            <td><label>Proteína</label></td>
+                            <td><label>Lípidos</label></td>
+                        </tr>
+                              <tr>
+                            <td><input class=" txt" type="number" step="any" name="energia" placeholder="Kcal" required /></td>
+                            <td><input class=" txt" type="number" step="any" name="proteina" placeholder="Gms" required /></td>
+                            <td><input class=" txt" type="number" step="any" name="lipidos" placeholder="Gms" required /></td>
+                        </tr>
+                              <tr>
+                            <td><label>Hidratos de carbono</label></td>
+                            <td><label>Fibra</label></td>
+                            <td><label>Vitamina A</label></td>
+                        </tr>
+                              <tr>
+                            <td><input class=" txt" type="number" step="any" name="hidratos" placeholder="Gms" required /></td>
+                            <td><input class=" txt" type="number" step="any" name="fibra" placeholder="Gms" required /></td>
+                            <td> <input class=" txt" type="number" step="any" name="vitamina" placeholder="Gms RE" required /></td>
+                        </tr>
+                              <tr>
+                            <td><label>Acido Ascórbico</label></td>
+                            <td><label>Acido Fólico</label></td>
+                            <td><label>Hierro</label></td>
+                        </tr>
+                              <tr>
+                            <td><input class=" txt" type="text" name="acido-as" placeholder="Mg" required /></td>
+                            <td><input class=" txt" type="number" step="any" name="acido-fo" placeholder="Mg" required /></td>
+                            <td><input class=" txt" type="number" step="any" name="hierro" placeholder="Mg" required /></td>
+                        </tr>
+                              <tr>
+                            <td><label>Potasio</label></td>
+                            <td><label>Agua</label></td>
+                            <td><label>Índice Glucémico</label></td>
+                        </tr>
+                              <tr>
+                            <td><input class=" txt" type="number" step="any" name="potasio" placeholder="Mg" required /></td>
+                            <td><input class=" txt" type="number" step="any" name="agua" placeholder="Ml" required /></td>
+                            <td><input class=" txt" type="text" name="indice" placeholder="indice" required /></td>
+                        </tr>
+                              <tr>
+                            <td><label>Carga Glucémico</label></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                              <tr>
+                            <td><input class=" txt" type="text" name="carga" placeholder="carga" required /></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </section>
+
+                 <div class="btns">
+                        <input class="btn" type="submit" name="" value="Guardar">
+                        <input class="btn" type="reset" name="" value="Nuevo">
+                        <input class="btn" type="submit" name="" value="Cancelar">
+                    </div>
+                </div>
+        
+        </form>
+  </center>
+</body>
+    <footer>
+        <!--derechos-->
+        <div class="final">
+            <div class="derechos">
+                @2020 Todos los Derechos Reservados
+            </div>
+            <div class="informacion">
+                Información Compañia | Política y Privacidad | Términos y Condiciones
+            </div>
+        </div>
+    </footer>
+</html>
+
