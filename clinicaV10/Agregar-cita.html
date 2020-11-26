@@ -1,0 +1,91 @@
+  <!DOCTYPE html>
+
+  <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/header.js"></script>
+</head>
+<body>
+
+    <header class="">
+
+        <div class="wrapper">
+
+            <div class="logo">
+                <h3>Clínica de Nutrición Yin-Yiao</h3>
+            </div>
+            <nav>
+               <a href="inicio.html">Inicio</a>
+               <a href="#">Regístrate</a>
+           </nav>
+       </div>
+   </header>
+   <center>
+    <form name="alimentos" method="post" class="contenido" action="citas.php">
+        <div class="borde-redondeado">
+            <h2 class="let" style="margin: 20px;">Agregar Cita</h2>
+            <div class="linea"></div>
+            <section class="personal">
+                
+                <table class="tab-datos">
+                    <tr>
+                        <td><label>Nombre</label></td>
+                        <td><label>Telefono</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class="txt" type="text" name="Nombre" placeholder="Nombre" maxlength="50" required></td>
+                        <td><input type="tel" class="txt" name="tel" placeholder="Telefono" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>E-mail</label></td>
+                        <td><label>Fecha</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class="txt" type="email" name="email" placeholder="email" maxlength="50" required></td>
+                        <td> <input type="date" class="txt" name="fecha" placeholder="" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Hora</label></td>
+                        <td><label>Servicio</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class="txt" type="time" name="hora" placeholder="" required></td>
+                        <td><select name="servicio" class="txt" style="color: black">
+                            <option value="Consulta" style="color: black">Consulta</option>
+                            <option value="Maderoterapia" style="color: black">Maderoterapia</option>
+                            <option value="Acupuntura" style="color: black">Acupuntura</option>
+                        </select></td>
+                    </tr>
+                </table>
+
+            </section>
+
+            <div class="btns">
+                <input class="btn" type="submit" name="" value="Guardar">
+                <input class="btn" type="reset" name="" value="Nuevo">
+                <input class="btn" type="submit" name="" value="Cancelar">
+            </div>
+        </div>
+        
+    </form>
+</center>
+
+
+<footer>
+    
+    <!--derechos-->
+    <div class="final">
+        <div class="derechos">
+            @2020 Todos los Derechos Reservados
+        </div>
+        <div class="informacion">
+            Información Compañia | Política y Privacidad | Términos y Condiciones
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
